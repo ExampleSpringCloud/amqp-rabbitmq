@@ -7,6 +7,7 @@
   - password: guest
 - create exchange named <code>tut.fanout</code>
 - create queue named <code>test</code>
+- bind exchange <code>tut.fanout</code> to queue <code>test</code>
 
 ### Run Application
 - <code>mvn spring-boot:run</code>
